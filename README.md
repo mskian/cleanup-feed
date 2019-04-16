@@ -9,7 +9,7 @@ A Chrome Extension  to Hide Unwanted Posts from Facebook News Feed based on your
 ## Installation
 
 - Download this zip File and unzip it - <https://download.mskian.com/files/cleanup-feed.zip>
-- Open the Extension Management Open this - `chrome://extensions`
+- Open the Extension Management Page - `chrome://extensions`
 - Enable Developer Mode by clicking the toggle switch next to Developer mode.
 - Click the `LOAD UNPACKED` button and select the unzipped extension directory
 

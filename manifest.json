@@ -1,6 +1,6 @@
 {
   "name": "Cleanup Feed",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Removes unwanted posts from your Facebook News Feed",
   "manifest_version": 2,
   "icons": {
