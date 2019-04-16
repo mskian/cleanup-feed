@@ -1,0 +1,53 @@
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Cleanup Feed - Options</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+
+  <style>
+    body {
+    background-color: #fafafa;
+    color: #222;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    height: 275px;
+    min-width: 700px;
+    padding: 8px;
+}
+    .title {
+    color: #3498db;
+    flex-grow: 1;
+    font-size: 22px;
+    font-weight: 300;
+}
+  </style>
+
+</head>
+<body>
+
+<br>
+<div class="container">
+<h2 class="title text-center">Write keywords (comma separated)</h2>
+<p class="text-center">Removes unwanted posts from your Facebook News Feed</p>
+<br>
+<form id="form">
+<div class="form-group">
+<textarea class="form-control" rows="8" id="keywords" type="text" placeholder="keyword1,keyword2,keyword3" autocomplete="off" spellcheck="false"></textarea>
+</div>
+<button id="save" type="submit" class="btn btn-block btn-info btn-lg">Save</button>
+</form>
+<br>
+<p>Posts hidden: <span id="stats">...</span></p>
+</div>
+<br>
+
+<script src="js/options.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "Cleanup Feed",
+  "version": "0.1",
+  "description": "Removes unwanted posts from your Facebook News Feed",
+  "manifest_version": 2,
+  "icons": {
+    "16": "Icon-16.png",
+    "48": "Icon-48.png",
+    "128": "Icon-128.png"
+  },
+  "options_page": "options.html",
+  "browser_action": {
+    "default_icon": "Icon-16.png",
+    "default_popup": "options.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [{
+    "matches": ["https://*.facebook.com/*"],
+    "js": ["js/extension.js"]
+  }],
+  "short_name": "Cleanup Feed"
+}
