@@ -17,7 +17,7 @@ A Chrome Extension  to Hide Unwanted Posts from Facebook News Feed based on your
 
 - you can Find the Plugin Option page on Chrome toolbar Right side of the Address bar
 
-!["CleanupFeed][screenshot.png]
+![Cleanup Feed](https://raw.githubusercontent.com/mskian/cleanup-feed/master/screenshot.png)
 
 - Click the Cleanup Icon
 - Write the keywords you want to block as comma separated value
