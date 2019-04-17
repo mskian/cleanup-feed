@@ -11,8 +11,8 @@ function cleanupFeed(keywords) {
     const elems = document.querySelectorAll(selector);
     elems.forEach(article => {
       article.classList.add('nonfeed');
-      const str = article.innerText.toLowerCase();
-      if (keywords.some(keyword => str.includes(keyword))) {
+      const wordList = new Set(article.innerText.toLowerCase().split(/\s+/));
+      if (keywords.some(keyword => wordList.has(keyword))) {
         article.remove();
         console.count('[Cleanup Feed Remover] Posts Hidden');
         if(typeof chrome.app.isInstalled!=='undefined'){
